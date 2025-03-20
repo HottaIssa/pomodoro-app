@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/assets/icon/icon-watch.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pomodoro App</title>
+  </head>
+  <body>
+    <main>
+      <section id="timer">
+        <h1>Pomodoro Timer</h1>
+        <div id="container-timer">
+          <p><span id="minute">25</span>:<span id="second">00</span></p>
+          <button id="btn-start">START</button>
+        </div>
+        <div id="container-buttons">
+          <button id="btn-reset" disabled>Reset</button>
+          <button id="btn-pause" disabled>Pause</button>
+        </div>
+      </section>
+      <audio id="end-sound" src="./assets/sound/success-221935.mp3"></audio>
+    </main>
+    <footer>
+      <p>Created by @HottaIssa</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
