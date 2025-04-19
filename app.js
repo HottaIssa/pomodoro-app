@@ -39,6 +39,7 @@ btnStart.addEventListener('click', () => {
   countdownMinutes()
   btnStart.disabled = true
   btnPause.disabled = false
+  btnReset.disabled = true
 })
 btnPause.addEventListener('click', () => {
   countdownMinutes()
